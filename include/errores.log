@@ -1,0 +1,81 @@
+06:11:59 PM [14/06/2011]
+No_especificada: 
+				SELECT DISTINCT NOMBRES, APELLIDOS,CI_E,'VRP' AS SEDE,
+				@DECODE(C_UNI_CA,'1','TMC','2','TET','3','IMT','4','IRU') AS CARRERA ,CORREO_ALTER
+				FROM DACE002 A, DACE006 B 
+				WHERE A.EXP_E=B.EXP_E AND B.LAPSO='2011-1' AND STATUS IN ('7','9') AND CORREO_INST IS NULL
+			
+[MERANT][ODBC SQLBase driver][SQLBase]01401 DLU ICN Invalid column name 
+09:04:00 AM [17/06/2011]
+No_especificada: 
+				SELECT DISTINCT NOMBRES, APELLIDOS,CI_E,'VRP' AS SEDE,
+				@DECODE(C_UNI_CA,'1','TMC','2','TET','3','IMT','4','IRU') AS CARRERA ,CORREO_ALTER
+				FROM DACE002 A, DACE006 B 
+				WHERE A.EXP_E=B.EXP_E AND B.LAPSO='2011-1' AND STATUS IN ('7','9') AND CORREO_INST IS NULL
+			
+[MERANT][ODBC SQLBase driver][SQLBase]01401 DLU ICN Invalid column name 
+09:57:05 AM [16/11/2011]
+No_especificada: 
+				SELECT DISTINCT NOMBRES, APELLIDOS,CI_E,'VRP' AS SEDE,
+				@DECODE(C_UNI_CA,'EC','EEC','EE','EEE','GM','EGM','IA','EIA','PR','EPR','PS','EPS','ER','EER','TD','ETD','IE','MET','EL','MEL','II','MIN','MM','MMC','MT','MML','MI','MMI','ES','EES') AS CARRERA ,CORREO_ALTER
+				FROM DACE002 A
+				WHERE A.ESTATUS_E IN('1') AND STATUS IN ('7','9') AND CORREO_INST IS NULL
+			
+[MERANT][ODBC SQLBase driver][SQLBase]01401 DLU ICN Invalid column name 
+09:57:12 AM [16/11/2011]
+No_especificada: 
+				SELECT DISTINCT NOMBRES, APELLIDOS,CI_E,'VRP' AS SEDE,
+				@DECODE(C_UNI_CA,'EC','EEC','EE','EEE','GM','EGM','IA','EIA','PR','EPR','PS','EPS','ER','EER','TD','ETD','IE','MET','EL','MEL','II','MIN','MM','MMC','MT','MML','MI','MMI','ES','EES') AS CARRERA ,CORREO_ALTER
+				FROM DACE002 A
+				WHERE A.ESTATUS_E IN('1') AND STATUS IN ('7','9') AND CORREO_INST IS NULL
+			
+[MERANT][ODBC SQLBase driver][SQLBase]01401 DLU ICN Invalid column name 
+09:57:19 AM [16/11/2011]
+No_especificada: 
+				SELECT DISTINCT NOMBRES, APELLIDOS,CI_E,'VRP' AS SEDE,
+				@DECODE(C_UNI_CA,'EC','EEC','EE','EEE','GM','EGM','IA','EIA','PR','EPR','PS','EPS','ER','EER','TD','ETD','IE','MET','EL','MEL','II','MIN','MM','MMC','MT','MML','MI','MMI','ES','EES') AS CARRERA ,CORREO_ALTER
+				FROM DACE002 A
+				WHERE A.ESTATUS_E IN('1') AND STATUS IN ('7','9') AND CORREO_INST IS NULL
+			
+[MERANT][ODBC SQLBase driver][SQLBase]01401 DLU ICN Invalid column name 
+03:37:16 PM [12/01/2012]
+No_especificada: 
+[MERANT][ODBC SQLBase driver][SQLBase]00917 PRS ISC Invalid SQL statement
+03:38:21 PM [12/01/2012]
+No_especificada: 
+[MERANT][ODBC SQLBase driver][SQLBase]00917 PRS ISC Invalid SQL statement
+03:38:28 PM [12/01/2012]
+No_especificada: 
+[MERANT][ODBC SQLBase driver][SQLBase]00917 PRS ISC Invalid SQL statement
+10:41:21 AM [02/05/2012]
+No_especificada: 
+				SELECT DISTINCT NOMBRES||' '||NOMBRES2, APELLIDOS||' '||APELLIDOS2,CI_E,'VRP' AS SEDE,
+				@DECODE(C_UNI_CA,'2','IMC','3','IET','4','IML','5','IEL','6','IIN') AS CARRERA ,CORREO1
+				FROM DACE002 A, DACE006 B 
+				WHERE A.EXP_E=B.EXP_E AND A.ESTATUS_E IN('1') AND STATUS IN ('7','A') AND CORREO_INST IS NULL
+			
+[MERANT][ODBC SQLBase driver][SQLBase]01801 LKM DLK Application deadlock
+02:31:07 PM [17/03/2021]
+No_especificada: 
+				SELECT DISTINCT NOMBRES||' '||NOMBRES2, APELLIDOS||' '||APELLIDOS2,CI_E,'' AS SEDE,
+				@DECODE(C_UNI_CA,'2','IMC','3','IET','4','IML','5','IEL','6','IIN') AS CARRERA
+				FROM DACE002 A, DACE006 B 
+				WHERE A.EXP_E=B.EXP_E AND A.ESTATUS_E IN('1') and lapso_in='2020-2E' AND STATUS IN ('7','A') AND CORREO_INST IS NULL
+			
+[Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado
+02:42:46 PM [19/03/2021]
+No_especificada: 
+				SELECT DISTINCT NOMBRES||' '||NOMBRES2, APELLIDOS||' '||APELLIDOS2,CI_E,'' AS SEDE,
+				@DECODE(C_UNI_CA,'2','IMC','3','IET','4','IML','5','IEL','6','IIN') AS CARRERA
+				FROM DACE002 A, DACE006 B 
+				WHERE A.EXP_E=B.EXP_E AND A.ESTATUS_E IN('1') and lapso_in='2020-2E' AND STATUS IN ('7','A') AND CORREO_INST IS NULL
+			
+[Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado
+09:54:52 AM [25/03/2022]
+No_especificada: 
+				SELECT DISTINCT NOMBRES||' '||NOMBRES2, APELLIDOS||' '||APELLIDOS2,CI_E,'' AS SEDE,
+				@DECODE(C_UNI_CA,'2','IMC','3','IET','4','IML','5','IEL','6','IIN') AS CARRERA
+				FROM DACE002 A, DACE006 B 
+				WHERE A.EXP_E=B.EXP_E AND A.ESTATUS_E IN('1') and lapso_in='2021-2' AND STATUS IN ('7','A') AND CORREO_INST IS NULL
+			
+[Microsoft][Administrador de controladores ODBC] No se encuentra el nombre del origen de datos y no se especificó ningún controlador predeterminado

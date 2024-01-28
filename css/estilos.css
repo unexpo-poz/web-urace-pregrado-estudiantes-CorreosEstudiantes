@@ -1,0 +1,75 @@
+
+ /*----------------------------------*/
+ /* Maqueta					   	 */
+ /*----------------------------------*/
+
+* {
+ padding: 0; margin: 0; 
+}
+body{background-image: url("../fondos/fondo.gif");}
+#contenedor {
+ width:85%; margin:auto;
+}
+#encabezado {
+ /*background-color: #3459A0;*/
+ background-color: #2073bf;
+}
+#encabezado imagen {
+	color:#FFFFFF;
+  /*  width: ;
+
+  padding:20px;*/
+}
+#encabezado h1 {
+ /* width: #blue;
+  color:#FFFFFF;
+  padding:20px;*/
+}
+#areatexto {
+ float:right;
+ width:74%;
+ border: 1px dashed #d9d9d9;
+}
+#areatexto h2, #areatexto p {
+ padding:20px; 
+}
+#contenidoprin {
+ float:left;  width:65%;  background-color: #eee;}
+#contenidosec {
+ float:right;  width:32%;  background-color: #d9d9d9;
+}
+#navegacion {
+ float:left;  width:24%;  background-color: #d9d9d9; padding:7px;
+}
+#pie{
+ height:50px;
+ width:100%;
+ clear:both; background-color:#d9d9d9; padding:5px;
+ }
+ /*----------------------------------*/
+ /* menu							 */
+ /*----------------------------------*/
+ .menu{
+ width:190px;
+ list-style:none;
+ margin:0;
+ padding:0;
+ border: 1px solid#7C7C7C;
+}
+li{
+ border-bottom: 1px solid #7C7C7C;
+ border-top:1px solid #FFF;
+ background:#F4F4F4;
+}
+
+a.menus{
+ padding:.2em 0 .2em 1.5em; 
+ display: block;
+ text-decoration:none;
+ color:#333333;
+  background:#F4F4F4 url("../img/flecha_inactiva.png") no-repeat 3px;
+}
+a.menus:hover,a:active{
+  background:#F4F4F4 url("../img/flecha_activa.png") no-repeat 3px;
+}
+

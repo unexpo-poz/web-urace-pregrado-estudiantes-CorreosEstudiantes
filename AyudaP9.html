@@ -1,0 +1,138 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ <head>
+  <title>  Documnetación del Correos para estudiantes </title>
+  <meta NAME="Generator" content="EditPlus">
+  <meta NAME="Author" content="">
+  <meta NAME="Keywords" content="">
+  <meta NAME="Description" content="">
+  <link rel="stylesheet" href="./css/estilos.css" type="text/css" />
+ </head>
+
+ <body>
+<div id="contenedor">
+	<div id="encabezado"> 
+		<img src="./img/banner.png" width="100%" height="128" border="0" alt="Correo-Estudiante">
+	</div> <!-- fin encabezado-->
+		
+	<!-- <div id="contenidoprin"> -->
+		<div id="ContAyuda">
+
+		 <H1> Proceso N° 9</H1>
+		
+		<p><h2>Actualizar datos de Bases de Datos locales</h2>
+
+			Este proceso tiene como fin actualizar los datos de correo institucional del  estudiante (CORREO_INS, CLAVE_INS_T, CLAVE_INIC_CORREO ).
+
+
+			<p>Los archivo CSVs a utilizar como fuente tendr&aacute; la siguiente estructura:
+				idcorreo,password,sede,cedula
+			<p>El formato de los nombres de los archivos CSV son:
+			G que lo identifica como un archivo de grupo + separador '-' + 
+			 siglas de Sede + separador '-' + siglas de Carrera + separador '-' + Fecha en formato aammddhhmm + Correlativo que indica grupos de 250 estudiantes por archivos de una misma carrera.csv
+			<br>Ejemplo: G-VRB-IEL-110520101.csv
+			
+			<p>Las siglas de los vicerrectorados y nucleos son:<br>
+			<br><table border='1'>
+			<thead>
+			<tr>
+				<th>Siglas</th>
+				<th>Sede</th>
+			</tr>
+			</thead>
+			<tr>
+				<td>VRB</td>
+				<td>Vicerrectorado Barquisimeto</td>
+			</tr>
+			<tr>
+				<td>NCa</td>
+				<td>N&uacute;cleo Carora</td>
+			</tr>
+			<tr>
+				<td>VRP</td>
+				<td>Vicerrectorado puerto Ordaz</td>
+			</tr>
+			<tr>
+				<td>VRL</td>
+				<td>Vicerrectorado Caballero Mejias</td>
+			</tr>
+			<tr>
+				<td>NCh</td>
+				<td>N&uacute;cleo Charallave</td>
+			</tr>
+			<tr>
+				<td>NGu</td>
+				<td>N&uacute;cleo Guarenas</td>
+			</tr>
+			</table><br>
+			<p>Las siglas de las carreras o especialidades son:<br><br>
+			<br><table border='1'>
+			<thead>
+			<tr>
+				<th>Siglas</th>
+				<th>Carrera</th>
+			</tr>
+			</thead>
+			<tr>
+				<td>IEL</td>
+				<td>Ingenier&iacute;a Electr&oacute;nica</td>
+			</tr>
+			<tr>
+				<td>IET</td>
+				<td>Ingenier&iacute;a El&eacute;ctrica</td>
+			</tr>
+			<tr>
+				<td>IMC</td>
+				<td>Ingenier&iacute;a Mec&aacute;nica</td>
+			</tr>
+			<tr>
+				<td>IML</td>
+				<td>Ingenier&iacute;a Metal&uacute;rgica</td>
+			</tr>
+			<tr>
+				<td>IQM</td>
+				<td>Ingenier&iacute;a Qu&iacute;mica</td>
+			</tr>
+			<tr>
+				<td>IID</td>
+				<td>Ingenier&iacute;a Industrial</td>
+			</tr>
+			<tr>
+				<td>IST</td>
+				<td>Ingenier&iacute;a de Sistema</td>
+			</tr>
+			<tr>
+				<td>IMT</td>
+				<td>Ingenier&iacute;a Mecatr&oacute;nica</td>
+			</tr>
+			<tr>
+				<td>IRU</td>
+				<td>Ingenier&iacute;a Rural</td>
+			</tr>
+			<tr>
+				<td>TET</td>
+				<td>TSU en El&eacute;ctrica</td>
+			</tr>
+			<tr>
+				<td>TMC</td>
+				<td>TSU en Mec&aacute;nica</td>
+			</tr>
+			</table><br>
+
+			<p>Para generar actualizar los datos se deben seguir los siguientes pasos
+
+				<br>1.-Descomprimir previamente el/los archivos generados en los Procesos N° 8
+				<br>2.-Pulsar el botón <b>Examinar</b>, para Seleccionar un CSV especifico.
+				<br>3.-Pulsar el botón <b>Cargar</b>, para inicializar el proceso.<br>
+
+			<br><p>Volver	<a href="./P9_ActCentdesdeCSV.php"><br><IMG SRC="./img/volver.jpg" WIDTH="50" HEIGHT="50" BORDER="0" ALT="Regresar">
+			</div><!-- fin ContAyuda-->
+			</div><!-- fin areatexto-->
+		</div><!-- fin contenidoprin-->
+
+		<div id="pie">
+			UNEXPO. La Universidad Técnica del Estado Venezolano
+		</div> <!-- fin pie -->
+	</div><!-- fin contenedor-->
+ </body>
+ </html>

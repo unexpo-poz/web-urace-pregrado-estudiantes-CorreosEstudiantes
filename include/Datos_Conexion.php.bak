@@ -1,0 +1,11 @@
+<?php
+if($tipo_acceso=="S"){// usuario que solo consulta
+	$user="C";
+	$password="C";
+
+}else{// usuario que actualiza
+	$user=" su usuario2";
+	$password="su usuario2";
+}
+
+?>
